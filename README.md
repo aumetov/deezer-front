@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="https://prnt.sc/ra4dpl" alt='demo-image'/>
+<img src="/demo.png" alt="demo-preview"/>
 
 ## Available Scripts
 
