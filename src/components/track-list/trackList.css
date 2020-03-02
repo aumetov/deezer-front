@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.track-list {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin: 30px auto 20px auto;
+}
+
+.tracks-container {
+
+}
+
+.tracks-footer {
+    font-family: Rubik;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+    color: #4F4F4F;
+    border-top: 1px solid #BDBDBD;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.track {
+    display: flex;
+    width: 100%;
+    height: 64;
+    margin-bottom: 20px;
+}
+
+.track-album-cover {
+    width: 64px;
+    height: 64px;
+    background-color: #BDBDBD;
+    margin-right: 10px;
+}
+
+.track-album-cover > img {
+    width: 100%;
+    height: 100%;
+}
+
+.track-info {
+    display: flex;
+    width: calc(100% - 64px);
+    justify-content: space-between;
+}
+
+.track-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.track-titles > p {
+    margin: 0;
+    text-align: left;
+}
+
+.track-title {
+    font-family: Rubik;
+    font-size: 16px;
+    color: black;
+}
+
+.feat-info {
+    font-family: Rubik;
+    font-size: 16px;
+    color: #828282;
+}
+
+.track-contributors {
+    font-family: Rubik;
+    font-size: 14px;
+    color: black;
+}
+
+.contributors-title {
+    font-family: Rubik;
+    font-size: 14px;
+    color: #828282;
+}
+
+.track-duration {
+    font-family: Rubik;
+    font-size: 14px;
+    color: #4F4F4F;
+    margin: auto 0 auto auto;
+}

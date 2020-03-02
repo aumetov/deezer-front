@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.search-field {
+    display: block;
+    width: 500px;
+    position: relative;
+}
+
+.search-input {
+    width: 470px;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    font-family: Rubik;
+    font-size: 16px;
+    outline: none;
+}
+
+.state-still:after {
+    display: block;
+    position: absolute;
+    content:'';
+    width: 20px;
+    height: 20px;
+    background: url("/search.svg");
+    background-size: contain;
+    right: 15px;
+    top: 18px;
+}
+
+.state-loading:after {
+    display: block;
+    position: absolute;
+    content:'';
+    width: 20px;
+    height: 20px;
+    background: url("/loader.svg");
+    background-size: contain;
+    right: 15px;
+    top: 18px;
+}
